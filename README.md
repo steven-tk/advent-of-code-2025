@@ -23,7 +23,7 @@ Collection of my solutions:
 
 `python3 main.py test` - run the test file.
 
-`python3 main.py run` - [SPOILER WARNING ;)]
+`python3 main.py run` - SPOILER WARNING ;)
 
 ---
 
