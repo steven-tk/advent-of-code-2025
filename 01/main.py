@@ -21,6 +21,8 @@ def load_dial():
     return reset_dial[50:] + reset_dial[:50]
 
 
+# lol
+# forgot to account for n > 100
 
 def dial_calc(input):
     zero_tracker = 0
