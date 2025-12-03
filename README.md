@@ -1,11 +1,72 @@
 # advent-of-code-2025
 
-## 01
+Collection of my solutions:
 
-### use with
+- [Day 1](#day-01)
+- [Day 2](#day-02)
+- [Day 3](#day-03)
+- [Day 4](#day-04)
+- [Day 5](#day-05)
+- [Day 6](#day-06)
+- [Day 7](#day-07)
+- [Day 8](#day-08)
+- [Day 9](#day-09)
+- [Day 19](#day-10)
+- [Day 11](#day-11)
+- [Day 12](#day-12)
 
-run the test file `python3 main.py test`
+---
 
-run the challenge file `python3 main.py run`
+## Day 01
+
+**How to use?**
+
+`python3 main.py test` - run the test file.
+
+`python3 main.py run` - run the challenge file.
+
+---
+
+## Day 02
+
+---
+
+## Day 03
+
+---
+
+## Day 04
+
+---
+
+## Day 05
+
+---
+
+## Day 06
+
+---
+
+## Day 07
+
+---
+
+## Day 08
+
+---
+
+## Day 09
+
+---
+
+## Day 10
+
+---
+
+## Day 11
+
+---
+
+## Day 12
 
 ---
