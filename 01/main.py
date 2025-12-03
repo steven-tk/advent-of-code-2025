@@ -26,24 +26,33 @@ def load_dial():
 
 def dial_calc(input):
     zero_tracker = 0
+    dial_turns = 0
     rotations = load_file(input).split()
     dial = load_dial()
     print(f"The dial was reset to {dial[0]}.")
     print("Cracking safe...")
 
     for rotation in rotations:
+        clicks = int(rotation[1:]) % len(dial)
         if rotation[0] == "L":
-            dial = dial[-int(rotation[1:]):] + dial[:-int(rotation[1:])]
+            dial = dial[-clicks:] + dial[:-clicks]
             print(f"Rotating by {rotation} turned the dial to {dial[0]}")
+            dial_turns += 1
             if dial[0] == 0:
                 zero_tracker += 1
         if rotation[0] == "R":
-            dial = dial[int(rotation[1:]):] + dial[:int(rotation[1:])]
+            dial = dial[clicks:] + dial[:clicks]
             print(f"Rotating by {rotation} turned the dial to {dial[0]}")
+            dial_turns += 1
             if dial[0] == 0:
                 zero_tracker += 1
-    
+    print("\n")
+    print("===============OUTCOME===============")
+    print(f"You've turned the dial {dial_turns} times.")
     print(f"The dial stopped at zero {zero_tracker} times.")
+    print("=====================================")
+    print(f"\nIssues or Feedback:\nhttps://github.com/steven-tk/\n")
+    
 
 
 def main():

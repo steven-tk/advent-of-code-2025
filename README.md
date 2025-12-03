@@ -5,4 +5,7 @@
 ### use with
 
 run the test file `python3 main.py test`
+
 run the challenge file `python3 main.py run`
+
+---
