@@ -51,7 +51,7 @@ def dial_calc(input):
     print(f"You've turned the dial {dial_turns} times.")
     print(f"The dial stopped at zero {zero_tracker} times.")
     print("=====================================")
-    print(f"\nIssues or Feedback:\nhttps://github.com/steven-tk/\n")
+    print(f"\nIssues or Feedback:\nhttps://github.com/steven-tk/advent-of-code-2025\n")
     
 
 
